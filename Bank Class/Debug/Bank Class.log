@@ -1,0 +1,60 @@
+﻿  Main.cpp
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Customer.h(5,16): error C2011:  'Customer': 'class' type redefinition
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Customer.h(5): message :  see declaration of 'Customer'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Account.h(6,15): error C2011:  'Account': 'class' type redefinition
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Account.h(6): message :  see declaration of 'Account'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Checking.h(6,32): error C2504:  'Account': base class undefined
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(55,20): error C2039:  'setaccountNum': is not a member of 'Checking'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Checking.h(6): message :  see declaration of 'Checking'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(58,17): error C2039:  'setbalance': is not a member of 'Checking'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Checking.h(6): message :  see declaration of 'Checking'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(59,24): error C2039:  'setchargePerCheck': is not a member of 'Checking'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Checking.h(6): message :  see declaration of 'Checking'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(60,20): error C2039:  'setminBalance': is not a member of 'Checking'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Checking.h(6): message :  see declaration of 'Checking'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(61,18): error C2039:  'setnumCheck': is not a member of 'Checking'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Checking.h(6): message :  see declaration of 'Checking'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(62,19): error C2664:  'void std::vector<Account,std::allocator<_Ty>>::push_back(_Ty &&)': cannot convert argument 1 from 'Checking' to 'const _Ty &'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(62,19): error C2664:         with
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(62,19): error C2664:         [
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(62,19): error C2664:             _Ty=Account
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(62,19): error C2664:         ]
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(62,19): message :  Reason: cannot convert from 'Checking' to 'const _Ty'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(62,19): message :         with
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(62,19): message :         [
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(62,19): message :             _Ty=Account
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(62,19): message :         ]
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(62,19): message :  use of undefined type 'Account'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Account.h(6,7): message :  see declaration of 'Account'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(67,10): error C2039:  'setC': is not a member of 'Savings'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Savings.h(5): message :  see declaration of 'Savings'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(68,19): error C2039:  'setAccountNum': is not a member of 'Savings'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Savings.h(5): message :  see declaration of 'Savings'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(69,21): error C2039:  'setInterestRate': is not a member of 'Savings'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Savings.h(5): message :  see declaration of 'Savings'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(72,16): error C2039:  'setbalance': is not a member of 'Savings'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Savings.h(5): message :  see declaration of 'Savings'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(73,18): error C2664:  'void std::vector<Account,std::allocator<_Ty>>::push_back(_Ty &&)': cannot convert argument 1 from 'Savings' to 'const _Ty &'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(73,18): error C2664:         with
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(73,18): error C2664:         [
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(73,18): error C2664:             _Ty=Account
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(73,18): error C2664:         ]
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(73,18): message :  Reason: cannot convert from 'Savings' to 'const _Ty'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(73,18): message :         with
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(73,18): message :         [
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(73,18): message :             _Ty=Account
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(73,18): message :         ]
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(73,18): message :  use of undefined type 'Account'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Account.h(6,7): message :  see declaration of 'Account'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(80,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Main.cpp(82,8): error C2027:  use of undefined type 'Account'
+  Bank.cpp
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Account.h(6): message :  see declaration of 'Account'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Bank.cpp(11,27): error C2511:  'int Bank::createAccount(void)': overloaded member function not found in 'Bank'
+  Customer.cpp
+  Account.cpp
+  Checking.cpp
+  Savings.cpp
+  Generating Code...
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Bank.h(5): message :  see declaration of 'Bank'
+C:\Users\ianho\OneDrive\HG - Ian\CSULB\Fall 2019\C++\source\repos\Bank Class\Bank Class\Account.cpp(16): error C4716:  'Account::withdraw': must return a value
